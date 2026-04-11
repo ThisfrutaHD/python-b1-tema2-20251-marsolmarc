@@ -1,29 +1,4 @@
 """
-Enunciado:
-Una tienda tiene una promoción que aplica el descuento del 10% a los productos
-cuyo valor numérico sea par. Para ello se requiere implementar funciones capaces 
-de sumar una lista de valores pares y retornar dicha suma.
-
-Implementa las funciones 'sum_even_numbers_in_list_while(list_numbers)', 
-'sum_even_numbers_in_list_for(list_numbers)' y
-'sum_even_numbers_in_list_do_while(list_numbers)' en donde su parámetro
-sea una lista de números y utilice un bucle 'WHILE', 'FOR' y 'DO WHILE', respectivamente,
-para su implementación. Todas las funciones deben retornar la suma de los números pares.
-
-Parámetros:
-    list_numbers (List): lista de precios que se desea sumar
-
-Ejemplo:
-    Entrada:
-    shopping_list = [10, 449, 33, 44, 188, 640]
-    sum_even_numbers_in_list_while(shopping_list)
-    sum_even_numbers_in_list_for(shopping_list)
-    sum_even_numbers_in_list_do_while(shopping_list)
-
-    Salida:
-    En los 3 casos el resultado es 882, que es la suma de 10, 44, 188 y 640. 
-
-
 Enunciat:
 Una botiga té una promoció que aplica el descompte del 10% als productes
 el valor numèric del qual sigui parell. Per això es requereix implementar funcions 
@@ -65,7 +40,6 @@ def sum_even_numbers_in_list_do_while(list_numbers):
     pass
 
 
-# Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
 
 # shopping_list = [10, 449, 33, 44, 188, 640]
