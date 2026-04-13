@@ -46,11 +46,9 @@ Exemple:
 
 
 def add_student_by_value(list_students, new_student):
-     new_list_by_value = []
-     for i in list_students:
-        new_list_by_value.append(i)
-     new_list_by_value.append(new_student)
-     return new_list_by_value
+    new_list_students = list_students.copy()
+    new_list_students.append(new_student)
+    return new_list_students
 
 
 
@@ -61,8 +59,14 @@ def add_student_by_reference(list_students, new_student):
 
 def main(list_students, new_student_by_value, new_student_by_reference):
     print(f"Original student list {list_students}")
-    print(f"Student list by value {add_student_by_value(list_students, new_student_by_value)}")
-    print(f"Student list by reference {add_student_by_reference(list_students, new_student_by_reference)}")
+    print(
+        f"Student list by value", 
+        add_student_by_value(list_students, new_student_by_value),
+    )
+    print(
+        f"Student list by reference", 
+        add_student_by_reference(list_students, new_student_by_reference),
+    )
     print(f"Original student list {list_students}")
     
 
