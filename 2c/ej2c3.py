@@ -42,9 +42,12 @@ def factorial(number: int):
 
 
 def calculate_factorial(number: int):
-    # Write here your code
-    pass
+    try:
+        return factorial(number)
+    except Exception as error:
+        return f"An unexpected error has occurred: {error}"
+
 
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
 
-# calculate_factorial(5)
+print(calculate_factorial(-5))
