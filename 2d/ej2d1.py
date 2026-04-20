@@ -37,4 +37,4 @@ def kg_to_lb(kg):
 
 
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
-print(kg_to_lb(0))
+#print(kg_to_lb(0))
